@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Andres Quintero">
+  <meta name="description" content="Andres' web development portfolio">
+  <meta name="keywords" content="Frontend, Backend, Fullstack, Front end, Back end, HTML, CSS, JavaScript, React, Bootstrap, Webpack, NodeJS, Express, Java">
+
+  <!-- Title -->
+  <title>Andres Quintero | Fullstack web development</title>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./images/code-square.svg" type="image/x-icon">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav id="navbar" class="navbar navbar-expand-md">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="images/code-square.svg" width="50" alt="logo" class="d-inline-block me-4">
+        <span>Andres Quintero</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbar-toggler" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-toggler">
+        <ul class="navbar-nav d-flex align-items-center">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#about-me">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero align-items-stretch mt-0">
+    <div class="hero-main d-flex flex-column justify-content-center align-items-center">
+      <img class="hero-profile-img rounded-circle" src="./images/desarrollador.svg" alt="Adres Quintero picture">
+      <h1>Hi, I'm Andres Quintero</h1>
+      <h2>I build beautifull frontends and fast backends</h2>
+    </div>
+    <div class="hero-lower">
+      <img class="img-fluid" src="./images/hero-lower.png" alt="main image">
+    </div>
+  </section>
+
+  <!-- About Me -->
+  <section id="about-me" class="about-me dark-section">
+    <div class="generic-container">
+      <h2 class="section-title">Meet Andres Quintero</h2>
+      <p class="section-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum, molestiae blanditiis. Ex recusandae obcaecati iure voluptatum cupiditate odit blanditiis minus dolorum possimus ad totam officia in, laboriosam, exercitationem aperiam nesciunt.</p>
+    </div>
+    <div class="container-fluid go-up">
+      <a href="#navbar"><i class="go-up-icon bi-chevron-up"></i></a>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section class="experience light-section">
+    <div class="container text-center">
+      <div class="row">
+        <div class="column col-12 col-md-4">
+          <i class="bi bi-window-sidebar"></i>
+          <h4 class="experience-title">Front</h4>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio totam quibusdam odit illum porro enim error in autem possimus. Iste incidunt possimus velit ea animi corrupti fuga dolor voluptates at.</p>
+          <div class="badges-container">
+            <span class="badge text-bg-primary">HTML</span>
+            <span class="badge text-bg-primary">CSS</span>
+            <span class="badge text-bg-primary">JavaScript</span>
+            <span class="badge text-bg-primary">React</span>
+          </div>
+        </div>
+        <div class="column col-12 col-md-4">
+          <i class="bi bi-database"></i>
+          <h4 class="experience-title">Back</h4>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur modi soluta alias corporis nobis eos tempora vero voluptates iure. Natus porro ullam eaque quo exercitationem similique est voluptatum rem tenetur.</p>
+          <div class="badges-container">
+            <span class="badge text-bg-primary">NodeJS</span>
+            <span class="badge text-bg-primary">Express</span>
+            <span class="badge text-bg-primary">Java</span>
+            <span class="badge text-bg-primary">SpringBoot</span>
+            <span class="badge text-bg-primary">MongoDB</span>
+            <span class="badge text-bg-primary">SQL</span>
+          </div>
+        </div>
+        <div class="column col-12 col-md-4">
+          <i class="bi bi-journal-bookmark"></i>
+          <h4 class="experience-title">Study</h4>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem natus voluptas fugiat maxime corrupti tempora alias corporis esse molestias cupiditate, quo quos beatae est rerum excepturi nam, vitae consequuntur commodi.</p>
+          <div class="badges-container">
+            <span class="badge text-bg-primary">Self taught</span>
+            <span class="badge text-bg-primary">The Odin Project</span>
+            <span class="badge text-bg-primary">Egg Coperation</span>
+            <span class="badge text-bg-primary">Globant</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid go-up">
+      <a href="#navbar"><i class="go-up-icon bi-chevron-up"></i></a>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="projects light-section d-flex flex-column">
+    <h2 class="section-title black-text">Projects</h2>
+    <h3 class="section-description">Here are some of my recent projects</h3>
+    <div class="container text-center project-container">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="project">
+            <img src="./images/proyecto1.png" alt="project1">
+            <div class="overlay">
+              <p>Project 1</p>
+              <div class="icon-container">
+                <a href="https://github.com/AndresEfQ" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+                <a href="https://github.com/AndresEfQ" target="_blank" rel="noopener noreferrer"><i class="bi bi-laptop"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="project">
+            <img src="./images/proyecto2.png" alt="project2">
+            <div class="overlay">
+              <p>Project 2</p>
+              <div class="icon-container">
+                <a href="https://github.com/AndresEfQ" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+                <a href="https://github.com/AndresEfQ" target="_blank" rel="noopener noreferrer"><i class="bi bi-laptop"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="project">
+            <img src="./images/proyecto3.png" alt="project3">
+            <div class="overlay">
+              <p>Project 3</p>
+              <div class="icon-container">
+                <a href="https://github.com/AndresEfQ" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+                <a href="https://github.com/AndresEfQ" target="_blank" rel="noopener noreferrer"><i class="bi bi-laptop"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="project">
+            <img src="./images/proyecto4.png" alt="project4">
+            <div class="overlay">
+              <p>Project 4</p>
+              <div class="icon-container">
+                <a href="https://github.com/AndresEfQ" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+                <a href="https://github.com/AndresEfQ" target="_blank" rel="noopener noreferrer"><i class="bi bi-laptop"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="project">
+            <img src="./images/proyecto5.png" alt="project5">
+            <div class="overlay">
+              <p>Project 5</p>
+              <div class="icon-container">
+                <a href="https://github.com/AndresEfQ" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+                <a href="https://github.com/AndresEfQ" target="_blank" rel="noopener noreferrer"><i class="bi bi-laptop"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="project">
+            <img src="./images/proyecto6.png" alt="project6">
+            <div class="overlay">
+              <p>Project 6</p>
+              <div class="icon-container">
+                <a href="https://github.com/AndresEfQ" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+                <a href="https://github.com/AndresEfQ" target="_blank" rel="noopener noreferrer"><i class="bi bi-laptop"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="https://github.com/AndresEfQ" target="_blank" rel="noopener noreferrer">
+        See more projects
+        <i class="bi bi-arrow-right-circle-fill"></i>
+    </a>
+    <div class="container-fluid go-up">
+      <a href="#navbar"><i class="go-up-icon bi-chevron-up"></i></a>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact dark-section">
+    <div class="container">
+      <div class="container text-center d-flex justify-content-evenly rectangle">
+        <div class="row">
+          <div class="col-12 col-md-4 section-title">
+            ¡Let's talk!
+          </div>
+          <div class="col-12 col-md-4 description">
+            Contact me to start your web project and I'll make your vision come true
+          </div>
+          <div class="col-12 col-md-4">
+            <a href="mailto:andresf2641@gmail.com">
+              <button type="button">
+                Contact
+                <i class="bi bi-envelope-check-fill"></i>
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid go-up">
+      <a href="#navbar"><i class="go-up-icon bi-chevron-up"></i></a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="dark-section d-flex flex-column align-items-center justify-content-center">
+    <img class="footer-logo" src="images/icono-blanco.svg" alt="portfolio logo">
+    <p class="footer-text text-center">I build and learn every day.<br>Let's create a project together.</p>
+    <div class="social-network-icons d-flex flex-wrap align-items-center justify-content-center">
+      <a href="https://twitter.com/andres_fqg" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-twitter"></i>
+      </a>
+      <a href="https://github.com/AndresEfQ" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/andresefq/" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-linkedin"></i>
+      </a>
+      <a href="https://www.instagram.com/andresefq21/" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-instagram"></i>
+      </a>
+      <a href="mailto:andresf2641@gmail.com" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-envelope"></i>
+      </a>
+    </div>
+    <div class="copyright text-center">Copyright Andres Quintero - 2023 &#169;</div>
+    <div class="container-fluid go-up">
+      <a href="#navbar"><i class="go-up-icon bi-chevron-up"></i></a>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
